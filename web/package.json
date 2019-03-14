@@ -1,0 +1,27 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "faye": "^1.2.4",
+    "next": "^8.0.3",
+    "pubsub-js": "^1.7.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
